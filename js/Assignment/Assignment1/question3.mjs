@@ -2,7 +2,7 @@
  you can not enter */
 
 
- const canenterroom = (age) => {
+ const canEnterRoom = (age) => {
     if(age < 18){
         return "you can enter room"
     }
@@ -12,7 +12,7 @@
  }
 
 
- console.log(canenterroom(15)) //output can enter room
- console.log(canenterroom(18)) // output cannot enter room
- console.log(canenterroom(23)) // cannot enter room
+ console.log(canEnterRoom(15)) //output can enter room
+ console.log(canEnterRoom(18)) // output cannot enter room
+ console.log(canEnterRoom(23)) // cannot enter room
  

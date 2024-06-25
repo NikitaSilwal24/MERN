@@ -11,7 +11,7 @@ Data Types in Javascript
 -> Number  : 1,2,3
 -> Boolean : true,false
 -> String  : alphabets, symbols, [strings are wrapped in double quote eg. "Dipesh"]
-             alphabets-> "a" , "Dipesh"
+             alphabets-> "a" , "Nikita"
              "123" is also a string as it is wrapped by double quote.
 
 Variable Defination is done by using "let". For constant "const" is used.
@@ -31,9 +31,33 @@ Conversion
 
 ->A FUNCTION IS USELESS IF IT IS NOT CALLED
 
-DAY 4
+DAY 4/5
 default value
 concept of return value
-
+ -> default function will return undefined value
 -> js is called dynamic language because a variable can store different data type at different point(time)
 -> we can call variable inside the backtick(`) but it is not possible inside single quote or double quote
+
+DAY 6
+ARRAY
+syntax let names = ["nikita", "ram", "hari"]
+collection of multiple value
+
+object -> physical instance of class
+array stores collection of value
+where as
+object store collection of value with information
+
+DAY 7
+-> for each 
+syntax
+arl.forEach() =>{      //Always first write syntax then add value 
+}
+
+->string wil always win during any operation
+1 + "1" = "11"
+"a"+ "b"= "ab"
+
+-> forEach doesnot produce any data
+-> string => array // Conversion
+-> array => string // conversion

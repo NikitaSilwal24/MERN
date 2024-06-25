@@ -4,9 +4,9 @@ make a arrow function that takes 3 input as number and return average of given n
 
 const calculateAverage = (num1, num2, num3) =>{
 
-    const sum = num1+ num2 + num3;
+    let sum = num1+ num2 + num3;
 
-    const average = sum/3
+    let average = sum/3
 
     return average
 }
