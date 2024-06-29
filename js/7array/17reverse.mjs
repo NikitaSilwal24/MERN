@@ -3,17 +3,16 @@
 reverse whole word such that
 output must be "ym eman si atikin lawlis"
 */
+let input = "My name is Nikita Silwal";
+const reverseWord = (value) => {
+  return value.split("").reverse().join("");
+};
 
-const reverseWord = (input) => {
+let variable = input.split(" ");
 
-    return input.split("").reverse().join("")
-
-}
-console.log(reverseWord("name"))
-
-let Input = ["my", "name", "is", "nikita", "silwal"];
-
-let Output = Input.map((value, i) => {
-  return reverseWord(value)
+let outputArr1 = variable.map((value, i) => {
+  let outputAnswer = reverseWord(value);
+  return outputAnswer;
 });
-console.log(Output);
+let answer = outputArr1.join(" ");
+console.log(answer);

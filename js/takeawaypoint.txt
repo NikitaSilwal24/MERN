@@ -63,6 +63,7 @@ arl.forEach() =>{      //Always first write syntax then add value
 -> array => string // conversion
 
 DAY 8 
+
 If input and output are array with same length always use map
 filter
 -> we can use filter when we have output from the same array input 
@@ -73,3 +74,6 @@ eg [1, 2, 3] = [2, 3]
 
 ->reverse
 reverse method change original value as well as give new value
+
+DAY 9
+-> arrayObject
